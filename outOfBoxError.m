@@ -10,7 +10,7 @@ oob = -1;  %oob is a number between 0 and 1, inclusive on both ends
   
   for i = 1:size(testSet,1)
     prediction = ClassifyByTree(tree, subAttr, testSet(i, :) );
-    if( strcmp( prediction, actual(i) ) == 0 )
+    if( prediction ==  actual(i) )
       correct = correct + 1;
     end
   end
