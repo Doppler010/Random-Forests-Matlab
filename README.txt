@@ -22,8 +22,7 @@ decisiontree.m provides the main script for running the ID3 algorithm. You provi
 This input file is tab-delimited. For example, if you wanted to classify the data points with attributes a1, a2, and a3 the input file would be
 
 a1  a2  a3  CLASS
-true  false false true
-false true  false true
+<real value> <real value> <real value> <class- real valued integer>
 etc.
 
 where each row represents a new data point and the last Boolean is what that point was classified as
